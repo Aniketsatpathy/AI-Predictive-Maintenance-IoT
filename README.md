@@ -111,5 +111,21 @@ Day 7 — Final Upload
 README + images
 
 Commit:
-
 Final project upload with documentation
+
+PROOF CHECKLIST
+
+1. Dataset Preview
+![Dataset Preview](images/Dashboard_UI.png)
+
+2. Preprocessing Output
+![Processed Data Preview](images/preprocessed_data_preview.png)
+
+3. Confusion Matrix
+ ![Confused matrix](outputs/plots/confusion_matrix.png)
+
+5. Failure Trend Graph
+![Failure Trend](images/Failure_trends.png)
+
+6. Dashboard UI
+![Dashboard](images/Dashboard_UI.png)
