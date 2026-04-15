@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Env
+venv/
+
+# Model files
+models/*.pkl
+
+# Data (optional)
+data/raw/*.txt
+
+# Outputs
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
