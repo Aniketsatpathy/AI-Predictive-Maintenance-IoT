@@ -22,7 +22,7 @@ df = create_failure_label(df)
 # STEP 3: Clean Data
 # ----------------------------
 df = clean_data(df)
-
+print("Preprocessed Data:\n", df.head())
 # ----------------------------
 # STEP 4: Feature Engineering
 # ----------------------------

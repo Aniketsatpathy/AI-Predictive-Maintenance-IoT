@@ -280,7 +280,7 @@ st.sidebar.markdown(
     """
     <div style='color:#64748b; font-size: 0.85rem; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 15px; font-weight: 300;'>
         Platform Version 2.3.1<br>
-        <span style='color: #94a3b8;'>Designed by <b style='color:#ffffff; font-weight: 500;'>Nachiket satpathy</b></span>
+        <span style='color: #94a3b8;'>Designed by <b style='color:#ffffff; font-weight: 500;'>Aniket satpathy</b></span>
     </div>
     """,
     unsafe_allow_html=True
