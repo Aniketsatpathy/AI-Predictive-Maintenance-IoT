@@ -45,87 +45,86 @@ DATA → PREPROCESS → MODEL → PREDICTION → DASHBOARD
 
 ```bash
 pip install -r requirements.txt
+```
 
-**▶️ Usage**
+## ▶️ Usage
+
+```bash
 python main.py
 streamlit run app/app.py
+```
 
-**📈 Results**
-Accuracy: ~96%
-Strong failure detection capability
+## 📈 Results
+- Accuracy: ~96%
+- Strong failure detection capability
 
-**📸 Screenshots**
+---
 
+## 📸 Screenshots
 
-🎯 **Learning Outcomes**
-Time-series ML
-Feature engineering
-Model evaluation
-Dashboard development
-Industrial AI concepts
+### 1. Dataset Preview
+![Dataset Preview](images/Dataset_preview.png)
 
-## Day 1 — Setup
-- Repo created  
-- Folder structure  
-
-Commit:
-```text
-Initial project setup
-
-Day 2 — Dataset
-NASA dataset added
-
-Commit:
-
-Added dataset and loading module
-
-Day 3 — Preprocessing
-Cleaning + labeling
-
-Commit:
-
-Implemented preprocessing and labeling
-
-Day 4 — Model
-Training model
-
-Commit:
-
-Trained Random Forest model
-
-Day 5 — Evaluation
-Metrics + confusion matrix
-
-Commit:
-
-Added evaluation metrics and plots
-
-Day 6 — Visualization
-Streamlit dashboard
-
-Commit:
-
-Built dashboard UI with real-time simulation
-
-Day 7 — Final Upload
-README + images
-
-Commit:
-Final project upload with documentation
-
-PROOF CHECKLIST
-
-1. Dataset Preview
-![Dataset Preview](images/Dashboard_UI.png)
-
-2. Preprocessing Output
+### 2. Preprocessing Output
 ![Processed Data Preview](images/preprocessed_data_preview.png)
 
-3. Confusion Matrix
- ![Confused matrix](outputs/plots/confusion_matrix.png)
+### 3. Classification Report
+![Classification Report](images/Classification_report.png)
 
-5. Failure Trend Graph
+### 4. Failure Trend Graph
 ![Failure Trend](images/Failure_trends.png)
 
-6. Dashboard UI
+### 5. Dashboard UI
 ![Dashboard](images/Dashboard_UI.png)
+
+### 6. Dashboard Demo
+![Dashboard Demo](images/Dashboard_demo.mp4)
+
+---
+
+## 🎯 Learning Outcomes
+- Time-series ML
+- Feature engineering
+- Model evaluation
+- Dashboard development
+- Industrial AI concepts
+
+---
+
+## 📅 Development Timeline
+
+### Day 1 — Setup
+- Repo created  
+- Folder structure created
+
+**Commit:** Initial project setup
+
+### Day 2 — Dataset
+- NASA dataset added
+
+**Commit:** Added dataset and loading module
+
+### Day 3 — Preprocessing
+- Data cleaning + labeling
+
+**Commit:** Implemented preprocessing and labeling
+
+### Day 4 — Model
+- Training Random Forest model
+
+**Commit:** Trained Random Forest model
+
+### Day 5 — Evaluation
+- Metrics + confusion matrix
+
+**Commit:** Added evaluation metrics and plots
+
+### Day 6 — Visualization
+- Streamlit dashboard built
+
+**Commit:** Built dashboard UI with real-time simulation
+
+### Day 7 — Final Upload
+- README + images added
+
+**Commit:** Final project upload with documentation
